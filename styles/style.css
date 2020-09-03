@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: arial,sans-serif;
+}
+
+nav.top-side {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.dots {
+  width: 20px;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  position: relative;
+  width: 375px;
+  margin: auto;
+  margin-top: 8%;
+  }
+
+.search {
+  width: 500px;
+  margin: 20px auto;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+}
+
+.search-bar {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  left: 8%;
+  border: none;
+}
+
+.mag {
+  position: relative;
+  width: 25px;
+  height: auto;
+  left: 20px;
+  top: 10px;
+}
+
+.mic {
+  position: relative;
+  right: -7%;
+  width: 25px;
+  top: 10px;
+  height: auto;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.indiButton {
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  color: #5F6368;
+}
+
+.explore {
+  font-size: small;
+  margin: auto;
+}
+
+footer.bot-side {
+  position: absolute;
+  display:flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav.top-side li {
+  margin: auto 5px;
+}
+
+footer.bot-side li {
+  margin: auto 15px;
+}
+
+li a {
+  color: #5f6368;
+}
